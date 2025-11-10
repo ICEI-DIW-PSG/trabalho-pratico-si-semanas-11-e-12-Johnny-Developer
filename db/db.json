@@ -1,18 +1,42 @@
 {
-  "usuarios": [
+  "receitas": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "titulo": "teste 2",
+      "descricao": "teste 2 ",
+      "autor": "Agência Brasil",
+      "data": "2025-06-01",
+      "imagem": "imagem1-nova.png",
+      "id": 2
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 3,
+      "titulo": "Lasanha de Frango com Creme de Milho",
+      "descricao": "Lasanha cremosa com frango desfiado, molho branco e creme de milho.",
+      "ingredientes": [
+        "500g de peito de frango cozido e desfiado",
+        "1 lata de milho verde",
+        "1 copo de requeijão",
+        "1 pacote de massa para lasanha",
+        "300g de queijo e presunto"
+      ],
+      "modoPreparo": "Bata o milho e o requeijão no liquidificador para formar o creme. Monte a lasanha alternando massa, frango e creme. Cubra com queijo e leve ao forno até dourar.",
+      "imagem": "public/assets/img/lasanha-de-frango.jpg"
+    },
+    {
+      "titulo": "teste 2",
+      "descricao": "teste 2 ",
+      "autor": "Agência Brasil",
+      "data": "2025-06-01",
+      "imagem": "imagem1-nova.png",
+      "id": 4
+    },
+    {
+      "titulo": "teste 2",
+      "descricao": "teste 2 ",
+      "autor": "Agência Brasil",
+      "data": "2025-06-01",
+      "imagem": "imagem1-nova.png",
+      "id": 5
     }
   ]
 }
