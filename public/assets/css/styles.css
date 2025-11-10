@@ -1,0 +1,171 @@
+/* ------------------------------
+   ESTILO GERAL DO SITE
+------------------------------ */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------------------------
+   CABEÇALHO E NAVBAR
+------------------------------ */
+header {
+  background-color: #dc3545; /* vermelho Bootstrap */
+  box-shadow: 0 2px 8px rgba(223, 16, 16, 0.2);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #b91d2d;
+  border-radius: 8px;
+  padding-inline: 10px;
+}
+
+/* ------------------------------
+   SEÇÃO DE RECEITAS
+------------------------------ */
+section h2 {
+  color: #b91d2d;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-title {
+  color: #dc3545;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ------------------------------
+   BOTÕES
+------------------------------ */
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #b91d2d;
+  transform: scale(1.05);
+}
+
+/* ------------------------------
+   FORMULÁRIO DE PESQUISA
+------------------------------ */
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  font-weight: 600;
+  color: #b91d2d;
+}
+
+input.form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+input.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 5px rgba(9, 230, 50, 0.3);
+}
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
+footer {
+  background-color: #dc3545;
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+}
+
+/* ------------------------------
+   SLIDER (CAROUSEL)
+------------------------------ */
+.carousel-inner img {
+  border-radius: 12px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* ------------------------------
+   RESPONSIVIDADE
+------------------------------ */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  nav .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
